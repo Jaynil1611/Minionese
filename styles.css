@@ -76,11 +76,12 @@ body {
 #output-div {
     font:inherit;
     margin: 2rem 0rem;
-    padding: 2rem;
-    width: 61%;
+    padding: 2rem 0.5rem;
+    width: 68%;
     height: 30px;
     border-radius: 0.5rem;
-    border: 2px solid var(--primary-color)
+    border: 2px solid var(--primary-color);
+    overflow: scroll;
 }
 
 /* footer */

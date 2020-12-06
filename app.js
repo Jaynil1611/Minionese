@@ -6,15 +6,16 @@ var translateButton = document.querySelector("#trans-button");
 
 var clearButton = document.querySelector("#clear-button");
 
-var url = 'https://lessofourapi.tanaypratap.repl.co/translate/yoda.json';
+// var url = "https://api.funtranslations.com/translate/minion.json";
+var url = 'https://lessonfourapi.jaynil.repl.co/translate/yoda.json';
+
 
 function executeFetchCall(inputText) {
     fetch(getTranslatedURL(inputText))
         .then(response => response.json())
         .then(resp => {
-            var output = resp.contents.translated;
-            console.log(output);
-            outputDiv.innerText = output;
+            // console.log(resp);
+            outputDiv.innerText = resp.contents.translated;
         })
         .catch(errorHandler);
 }
@@ -29,11 +30,9 @@ function errorHandler(error) {
     console.log(error);
 }
 
-
 function clickHandler(event) {
-    // console.log(textInput.value);
     if (textInput.value !== "") {
-        executeFetchCall(textInput)
+        executeFetchCall(textInput.value)
     }
     else alert("Please enter text");
 }
