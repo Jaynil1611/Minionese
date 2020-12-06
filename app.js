@@ -6,8 +6,8 @@ var translateButton = document.querySelector("#trans-button");
 
 var clearButton = document.querySelector("#clear-button");
 
-// var url = "https://api.funtranslations.com/translate/minion.json";
-var url = 'https://lessonfourapi.jaynil.repl.co/translate/yoda.json';
+// var url = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json"
+var url = "https://api.funtranslations.com/translate/minion.json";
 
 
 function executeFetchCall(inputText) {
