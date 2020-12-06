@@ -3,13 +3,14 @@
 :root{
     --primary-color: #FDBA74;
     --secondary-color:#7C2D12;
-    --hover-fade-color:#FFF7ED;
+    --hover-fade-color:#FFEDD5;
 }
 
 body {
     font-family: 'Courgette', cursive;
     font-size: larger;  
     margin: 0;
+    box-sizing: border-box;
 }
 
 /* header */
@@ -55,7 +56,18 @@ body {
 #trans-button {
     background-color: var(--primary-color);
     font: inherit;
-    border: none;
+    outline: none;
+    border-color: var(--secondary-color);
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+}
+
+#clear-button {
+    background-color: var(--primary-color);
+    font: inherit;
+    outline: none;
+    margin-left: 1rem;
+    border-color: var(--secondary-color);
     border-radius: 0.5rem;
     padding: 0.5rem 1rem;
 }
@@ -65,8 +77,8 @@ body {
     font:inherit;
     margin: 2rem 0rem;
     padding: 2rem;
-    width: 70%;
-    height: 20px;
+    width: 61%;
+    height: 30px;
     border-radius: 0.5rem;
     border: 2px solid var(--primary-color)
 }
