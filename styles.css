@@ -59,7 +59,7 @@ body {
 .txt-input:focus {
     outline: none;
     border-radius: 0.5rem;
-    border-color: red;    
+    border-color: var(--secondary-color);    
 }
 
 /* button */
