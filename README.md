@@ -7,7 +7,7 @@ The plain javascript also known as vanillajs is used by big tech companies to bu
 You can check the API here 👉 [funtranslations-api](https://funtranslations.com/api/minion)
 
 ## Live Demo
-View the live demo of the application here 👉  [Ebonics-Translator](https://jaynil-gaglani-banana-speak.netlify.app/)
+View the live demo of the application here 👉  [Minionese](https://jaynil-gaglani-banana-speak.netlify.app/)
  
  ## Application View
 ![Image](https://raw.githubusercontent.com/Jaynil1611/Portfolio-Website/master/images/Banana.PNG)
