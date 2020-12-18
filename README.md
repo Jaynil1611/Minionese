@@ -16,7 +16,6 @@ View the live demo of the application here 👉  [Minionese](https://jaynil-gagl
 - HTML
 - CSS
 - JavaSript
-- React JS
 - Funtranslations API
 
 ## Run Application
